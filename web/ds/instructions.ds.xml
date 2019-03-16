@@ -1,0 +1,17 @@
+<DataSource
+    ID="instructions"
+    serverType="sql"
+    tableName="instructions"
+    testFileName="/ds/data/instructions.data.xml"
+>
+    <fields>
+        <field name="instruction"  title="Item"   type="text"  length="128"
+               required="true"
+               primaryKey="true" />
+
+        <field name="parentID"  hidden="true"  type="text"
+               required="true"
+               foreignKey="instructions.instruction"
+               rootValue="root" />
+    </fields>
+</DataSource>

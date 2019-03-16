@@ -1,0 +1,30 @@
+<List>
+<instructions>
+    <instruction>Apply</instruction>
+    <parentID>root</parentID>
+</instructions>
+<instructions>
+    <instruction>Register</instruction>
+    <parentID>Apply</parentID>
+</instructions>
+<instructions>
+    <instruction>Draw</instruction>
+    <parentID>Apply</parentID>
+</instructions>
+<instructions>
+    <instruction>Edit</instruction>
+    <parentID>Apply</parentID>
+</instructions>
+<instructions>
+    <instruction>User</instruction>
+    <parentID>root</parentID>
+</instructions>
+<instructions>
+    <instruction>Create</instruction>
+    <parentID>User</parentID>
+</instructions>
+<instructions>
+    <instruction>Permission</instruction>
+    <parentID>User</parentID>
+</instructions>
+</List>
